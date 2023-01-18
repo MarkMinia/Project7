@@ -1,6 +1,6 @@
 # Power Predictor: Machine Learning Powerlifter
 
-#### [Google Collab File]([https://github.com/MarkMinia/Project6/blob/main/KAGGLE_TITANIC.ipynb](https://github.com/MarkMinia/Project7/blob/main/Powerlifting_Machine_Learning_Final_KG_Total.ipynb))
+#### [Google Collab File](https://github.com/MarkMinia/Project7/blob/main/Powerlifting_Machine_Learning_Final_KG_Total.ipynb)
 
 ##### I decided to a project on powerlifting. It's a hobby of mines and I'm trying to compete more, too, so I figured this topic would be the most interesting for me.
 
