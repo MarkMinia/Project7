@@ -6,9 +6,9 @@
 
 ##### My research question is, by using a lifter's basic profile and opening attempt selections, can a machine learning model forecast a lifter's final kg total before that person steps on the platform? 
 
-##### By basic profile,Ii mean things like age, weight, gender etc.
+##### By basic profile, I mean things like age, weight, gender etc.
 
-##### So, powerlifting is a sport in which competitors compete to lift the most weight in their specific weightclass. There are three lifts: The squat, bench, and deadlift. You get 3 attempts in each and your best squat, bench, and deadlift numbers are added together to get the final total. So, without looking at 2nd and 3rd attempts, I wanted to see if the opening attempts can be used to predict the final outcome because that is something lifters need to provide to the staff before the competition even begins. Personally, It would also be cool to see how someone could potentially place in the standings, like 1st, 2nd, or 3rd place.
+##### Powerlifting is a sport in which competitors compete to lift the most weight in their specific weightclass. There are three lifts: The squat, bench, and deadlift. You get 3 attempts in each and your best squat, bench, and deadlift numbers are added together to get the final total. So, without looking at 2nd and 3rd attempts, I wanted to see if the opening attempts can be used to predict the final outcome because that is something lifters need to provide to the staff before the competition even begins. Personally, It would also be cool to see how someone could potentially place in the standings, like 1st, 2nd, or 3rd place.
 
 ##### The LGBMR Regressor provided the best results, but not many models were used due to computer issues: Collab kept crashing from runtime errors.
 
