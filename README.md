@@ -2,9 +2,9 @@
 
 #### [Google Colab File](https://github.com/MarkMinia/Project7/blob/main/Powerlifting_Machine_Learning_Final_KG_Total.ipynb)
 
-##### After attempting the Titanic competition on Kaggle, I decided to run through the process, again, but on the topic of powerlifting because it's my primary hobby at this time.
+##### After attempting the Titanic competition on Kaggle, I decided to run through the process, again, but on the topic of powerlifting because it's a hobby I spend the most time on.
 
-##### My research question is, by using a lifter's basic profile and opening attempt selections, can a machine learning model forecast a lifter's final kg total before that person steps on the platform? 
+##### My research question is: by using a lifter's basic profile and opening attempt selections, can a machine learning model forecast a lifter's final kg total before that person steps on the platform? 
 
 ##### By basic profile, I mean things like age, weight, gender etc.
 
