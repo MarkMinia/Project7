@@ -16,5 +16,24 @@
 
 ##### There's a website called OpenPowerlifting.com that is updated real-time with meets around the world, but the file size was too large. I found one on Kaggle that was half the size, but was still too large for Collab, so I had to upload it using the Kaggle API.
 
-##### I chose to focus on........ 
+##### I chose to focus on..... I kept only SBD (squat, bench, and deadlift) events because I want to predict the total for only full-power events that requires competitors to lift in those three events. Rows that are missing under TotalKg is due to the lifter being disqualified from failing their lifts, so I filtered that out, too. 
 
+##### As we grow up we experience a peak in strength, then a natural decline as we age. A younger lifter is more likely to put up a higher total than an older lifter. Also, powerlifting is a high risk sport, but when you're young you can push/pull heavier weights with a faster recovery time.
+
+##### I couldn't fit the entire graph and the x-axis may look a little confusing, but the main idea from looking at bodyweight is that the bigger you are, the easier it is to move the weight, and therefore a higher total is expected, and vice-versa. There are so many powerlifting federations and each one can have their own rulebook regarding how weight classes are created. 
+
+##### Depending on the type of competition, you're allowed specific equipment you can use. Multi-ply and wraps offer the most support during a lift and it can increase a lifter's total by a lot.
+
+##### Steroids are a banned substance only if you enter a drug-tested meet. There's not much to say about it other than it will definitely enhance performance and allow a lifter to put more weight on the bar if allowed.
+
+##### Gender also plays a role in a lifter's expected kg total. In general, a male is expected to lift the heavier weight. Not always the case, but generally speaking based on the data.
+
+##### Finally, the opening attempts.......
+
+##### So, after some exploratory data analysis, before getting into the modeling I filled in the missing values using mean, median, and mode. Then, I split the dataframe, one-hot encoded X and the selected values, and did the Test-Train Split as we have been instructed in past activities. I put it into 4 different regression models.......... Then, I evaluated the predictions using the RMSE and R squared.
+
+##### I provided a table showing the models sorted in a dataframe. The LGBMR is at the top since what we want is a high model score, low RMSE, and high R squared.
+
+##### Read off slide for results........ I would say it's not effective in predicting the totals. I preferebly would want a lower RMSE, ideally down to to 25-50. One red plate is 25kg, and one on each side of the bar makes 50kg, so I can accept the model if the difference between predicted and actual values are off by 1-2 plates.
+
+##### Read off slide for conclusion.......
